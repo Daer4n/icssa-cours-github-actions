@@ -7,7 +7,8 @@
     "test": "mocha --require @babel/register",
     "prettier": "prettier --write src/**/*.js",
     "lint": "eslint src/**/*.js",
-	"doc": "jsdoc src/."
+    "doc": "jsdoc src/.",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "@babel/register": "^7.8.7",
     "chai": "^4.2.0",
     "eslint": "^8.1.0",
+    "husky": "^7.0.4",
     "mocha": "^6.2.0"
   },
   "dependencies": {
